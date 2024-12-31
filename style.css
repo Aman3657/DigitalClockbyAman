@@ -1,0 +1,85 @@
+.clockBox {
+    height: 20rem;
+    width: 25rem;
+    background-color: rgb(46, 44, 44);
+    border: 5px solid rgb(54, 236, 100);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px; /* Optional: Adds rounded corners */
+    margin: auto;
+}
+.clockBox:hover{
+ border:5px solid rgb(238, 15, 15);
+}
+
+.clock-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(44, 182, 113);
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.clock {
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem; /* Adds spacing between elements */
+}
+
+.section1 p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.section1 .buttons {
+    display: flex;
+    gap: 0.5rem; /* Space between buttons */
+}
+
+
+
+
+.buttons .colour1 {
+    
+    border: 2px solid rgb(19, 241, 67);
+    color: rgb(205, 212, 216);
+    padding: 10px 20px;
+    margin: 5px;
+    cursor:pointer;
+    background-color: rgb(22, 21, 21);
+    border-radius: 5px;
+}
+
+.buttons .colour1:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    border:2px  solid rgb(236, 11, 11);
+    
+}
+
+
+
+body{
+    background-color: rgb(46, 44, 44);
+}
+
+#countdown{
+    color: aquamarine;
+}
+#countdown:hover{
+    color:red;
+    
+}
